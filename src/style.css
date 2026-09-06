@@ -1254,7 +1254,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.25rem 1rem;
+  padding: 1rem .9rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   cursor: pointer;
@@ -1281,7 +1281,7 @@ a {
 
 .event-icon {
   color: var(--primary-red);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   width: 20px;
   text-align: center;
   transition: transform 0.3s ease, color 0.3s ease;
@@ -1293,8 +1293,8 @@ a {
 }
 
 .event-name {
-  font-size: 1.05rem;
-  font-weight: 700;
+  font-size: .9rem;
+  font-weight: 600;
   color: var(--text-primary);
   transition: color 0.3s ease;
 }
@@ -1304,7 +1304,7 @@ a {
 }
 
 .event-year {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.4);
   font-weight: 500;
   transition: color 0.3s ease;

@@ -37,11 +37,11 @@ export default function About() {
               <span className="stat-label">Years playing</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">20+</span>
+              <span className="stat-number">100+</span>
               <span className="stat-label">Live stages</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">03</span>
+              <span className="stat-number">20+</span>
               <span className="stat-label">Featured projects</span>
             </div>
           </div>

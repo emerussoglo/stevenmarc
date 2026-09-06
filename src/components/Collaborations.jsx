@@ -24,17 +24,17 @@ export default function Collaborations() {
   }, []);
 
   const conexTracks = [
-    { number: "01", title: "Dougbè", link: "#" },
-    { number: "02", title: "Alcool", link: "#" },
-    { number: "03", title: "Aventurier", link: "#" },
-    { number: "04", title: "Trahision", link: "#" }
+    { number: "01", title: "Dougbè", link: "https://youtu.be/ryqAVbJhb-4?si=TByaW_PaKbNb7Fod" },
+    { number: "02", title: "Alcool", link: "https://youtu.be/q-UbFBKsXEk?si=7NaAkzH_wVsbEqgN" },
+    { number: "03", title: "Aventurier", link: "https://youtu.be/pENWPm-0bCM?si=rFkQ_gwKYFf0vJKh" },
+    { number: "04", title: "Trahison", link: "https://youtu.be/vrjuM8o9SQ4?si=oEyBY-LJNuwbje3k" }
   ];
 
   const frydaosTracks = [
-    { number: "01", title: "Codicodico", link: "#" },
-    { number: "02", title: "Noukon Yiyi", link: "#" },
-    { number: "03", title: "Vê Nan", link: "#" },
-    { number: "04", title: "Living", link: "#" }
+    { number: "01", title: "Codicodico", link: "https://youtu.be/yJS1Lk3OBk8?si=vh-ctkU8unkSYW81" },
+    { number: "02", title: "Noukon Yiyi", link: "https://youtu.be/EZHXnT3BkDI?si=iBTXUnknbqnP5edo" },
+    { number: "03", title: "Vê Nan", link: "https://youtu.be/6CIL9VPcJNo?si=XgYT3oMpSNbRWvra" },
+    // { number: "04", title: "Living", link: "#" }
   ];
 
   return (
