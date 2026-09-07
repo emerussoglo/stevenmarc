@@ -33,7 +33,7 @@ export default function Hero() {
           </span>
 
           <h1 className="hero-title animate-fade-up-1">
-            Jeacques-Steven <br />
+            Jacques-Steven <br />
             <span className="text-red">Marc</span>
           </h1>
 
