@@ -51,13 +51,13 @@ export default function ImageCollection() {
     },
     {
       id: 5,
-      src: "/img/steven-stage.jpeg",
+      src: "/img/gallery-6.jpeg",
       alt: "Guitar Close Up Live",
       aspect: "normal" // Colonne 2 - Image 2
     },
     {
       id: 6,
-      src: "/img/steven-stage.jpeg",
+      src: "/img/gallery-7.jpeg",
       alt: "Acoustic Portrait",
       aspect: "normal" // Colonne 3 - Image 2
     }

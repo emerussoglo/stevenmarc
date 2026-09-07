@@ -59,29 +59,12 @@ export default function Work() {
       year: "2025",
       link: "https://www.youtube.com/watch?v=CoRw-cddPkc",
     },
-    {
-      icon: "fa-solid fa-video", // Ou "fa-solid fa-music" / "fa-solid fa-microphone-lines"
-      name: 'Axel Merryl feat Toofan "GBA GBA" (TOUT DOUX C\'EST BON) CLIP OFFICIEL',
-      year: "2025",
-      link: "https://www.youtube.com/watch?v=ht2SPFqXZ_o",
-    },
+   
     {
       icon: "fa-solid fa-microphone-lines",
       name: "Axel Merryl - Vodoun Days",
       year: "2025",
       link: "https://www.youtube.com/watch?v=0wtymr8IOlo",
-    },
-    {
-      icon: "fa-solid fa-compact-disc", // ou "fa-solid fa-music" / "fa-solid fa-video"
-      name: "Axel Merryl - PETIT BISOU (Official Music Video)",
-      year: "2025",
-      link: "https://youtu.be/K0f8CTfVU00?si=7JQiR7ZTPpudLBml",
-    },
-    {
-      icon: "fa-solid fa-compact-disc", // ou "fa-solid fa-music" / "fa-solid fa-video"
-      name: "Crisba - Yèyinon (Visualizer)",
-      year: "2024",
-      link: "https://www.youtube.com/watch?v=y9brGAZbH-c",
     },
   ];
 
@@ -140,22 +123,30 @@ export default function Work() {
           </div>
 
           {/* Carte Featured Project */}
-          <div className="featured-project-card">
-            <div className="project-thumbnail">
-              <img src="/img/conex-don.jpg" alt="Conex et Don L'Apéro" />
-            </div>
-            <div className="project-info">
-              <span className="project-badge">FEATURED PROJECT · 2024</span>
-              <h3 className="project-title">
-                Conex et Don
-                <br />
-                L'Apéro
-              </h3>
-              <p className="project-description">
-                Guitar performance & musical collaboration
-              </p>
-            </div>
-          </div>
+        <a 
+  href="https://www.youtube.com/watch?v=WfrUOURO5FY&list=RDWfrUOURO5FY&start_radio=1" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="featured-project-card"
+>
+  <div className="project-thumbnail">
+    <img src="/img/conex-don.jpg" alt="Conex et Don L'Apéro" />
+  </div>
+  <div className="project-info">
+    <div className="project-header">
+      <span className="project-badge">FEATURED PROJECT</span>
+      <i className="fa-solid fa-arrow-up-right-from-square project-link-icon"></i>
+    </div>
+    <h3 className="project-title">
+      Conex et Don
+      <br />
+      L'Apéro
+    </h3>
+    <p className="project-description">
+      Guitar performance & musical collaboration with Ghost Notes Band
+    </p>
+  </div>
+</a>
         </div>
       </div>
     </section>
