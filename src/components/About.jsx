@@ -19,7 +19,7 @@ export default function About() {
           <h2 className="about-title">WHO AM I?</h2>
 
           <p className="about-paragraph">
-            I am <span className="highlight-red">Steven Marc</span>, a guitarist born on July 6, 2001, in Godomey, Benin.
+            I am <span className="highlight-red">Jacques-Steven Marc</span>, a guitarist born on July 6, 2001, in Godomey, Benin.
           </p>
 
           <p className="about-paragraph">

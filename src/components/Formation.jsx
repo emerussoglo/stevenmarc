@@ -37,9 +37,21 @@ export default function Formation() {
     },
     {
       year: "2017",
-      title: "Music Graduation",
-      description: "Graduated with a focus on guitar performance and musical expression.",
-      icon: "fa-solid fa-music"
+      title: "Stage en Technique du Son — B.M. Studio",
+      description: "Attestation de stage en installation, câblage, prise de son et mixage (Cubase & Pro Tools).",
+      icon: "fa-solid fa-sliders"
+    },
+    {
+      year: "2017—2019",
+      title: "Guitariste & Ingénieur du Son — Studio Sion Production",
+      description: "Certificat de travail attestant des fonctions de musicien guitariste, arrangeur et technicien du son.",
+      icon: "fa-solid fa-record-vinyl"
+    },
+    {
+      year: "2021—2024",
+      title: "Musicien Guitariste — Studio Joël229",
+      description: "Certificat de travail pour des prestations régulières de guitare studio, enregistrement et production.",
+      icon: "fa-solid fa-guitar"
     }
   ];
 
@@ -52,7 +64,7 @@ export default function Formation() {
       {/* En-tête de section */}
       <div className="formation-header fade-up">
         <span className="formation-subtitle">03 · FOUNDATION</span>
-        <h2 className="formation-title">FORMATION</h2>
+        <h2 className="formation-title">FORMATION & CERTIFICATS</h2>
       </div>
 
       <div className="formation-container">
@@ -74,7 +86,7 @@ export default function Formation() {
             <div 
               key={index} 
               className="timeline-item"
-              style={{ animationDelay: `${0.3 + index * 0.2}s` }}
+              style={{ animationDelay: `${0.2 + index * 0.15}s` }}
             >
               <div className="timeline-icon-box">
                 <i className={item.icon}></i>
